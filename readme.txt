@@ -1,4 +1,4 @@
-git is a version control system.
+﻿git is a version control system.
 git is a good software.
 
 命令行教程：
@@ -75,3 +75,9 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 在 git bash 里面切换到.ssh目录，查看pub中的密钥 cat id_rsa.put
 
 
+17.添加已有的本地仓库到github:
+git remote add origin git@github.com:dev-eric-cf/git-study.git
+推送
+git push -u origin master
+把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
+由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
