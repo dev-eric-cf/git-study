@@ -81,3 +81,17 @@ git remote add origin git@github.com:dev-eric-cf/git-study.git
 git push -u origin master
 把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
 由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+
+
+18.查看分支
+git branch 
+当前分支前面会标一个*号
+
+19.创建分支
+git branch branchname
+
+20.切换分支
+git checkout  branchname
+(19和20命令合并可以使用 git checkout -b branchname)创建并切换到branchname分支
+
+21.
