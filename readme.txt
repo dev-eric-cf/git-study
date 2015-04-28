@@ -100,5 +100,5 @@ git merge branchname
 22.删除分支
 git branch -d branchname
 
-Creating a new branch is quick and simple.
-
+23.查看分支合并图
+git log --graph
