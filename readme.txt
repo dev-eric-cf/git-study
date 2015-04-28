@@ -94,4 +94,8 @@ git branch branchname
 git checkout  branchname
 (19和20命令合并可以使用 git checkout -b branchname)创建并切换到branchname分支
 
-21.
+21.合并分支,切换当前分支为主线(master)
+git merge branchname
+
+22.删除分支
+git branch -d branchname
