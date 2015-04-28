@@ -102,3 +102,5 @@ git branch -d branchname
 
 23.查看分支合并图
 git log --graph
+
+testbranch commit remote
